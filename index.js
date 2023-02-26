@@ -16,7 +16,7 @@ app.use("/prod", productroute)
 
 app.use("/cartes" , cartRoute)
 app.use("/user", userRoute)
-app.use(authentication)
+// app.use(authentication)
 
 
 app.listen(2020, async () => {
